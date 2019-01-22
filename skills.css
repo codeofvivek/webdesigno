@@ -1,0 +1,80 @@
+
+		*{
+			padding: 0px;
+			margin:0px;
+			box-sizing: border-box;
+		}
+		body{
+			background-color: rgba(86, 87, 87, 1);
+			
+			list-style: none;
+		}
+		.bo{
+			width: 1365px;
+			height: 700px;
+			background-image: url(picture//rod.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		
+		
+		.home{
+			background-image: url(picture//rod.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			position: absolute;
+			top: 53%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			
+			max-width: 900px;
+			max-height: 700px;
+			box-shadow: 0px 0px 30px black;
+			
+			
+		}
+		#me{
+			text-align: center;
+			font-size: 30px;
+			text-transform: uppercase;
+			color: black;
+			text-shadow: 1px 1px 0px white;
+		}
+		.vi{
+			font-size: 20px;
+			padding: 10px;
+
+		}
+		.head{
+			font-size: 25px;
+			padding: 10px;
+
+		}
+		ul{
+			list-style: none;
+			padding: 10px;	
+		}
+		li{
+			font-size: 20px;
+		}
+		h1{
+			font-size: 27px;
+			padding: 10px;
+		}
+		.a{
+			font-size: 23px;
+			padding-left:  10px;
+
+		}
+		.a a{
+			text-decoration: none;
+			color: black;
+		}
+		.a a:hover{
+			color: #274341 ;
+			padding-bottom: 3px;
+			border-bottom: 2px solid black ;
+		}
+	
